@@ -105,6 +105,27 @@ istitle
 isalpha
 isnumeric
 
+            
+                                            Join, center and zero fill operations in string 
+                                            
+                                          
+Join string
+
+sample1 by adding * between the words
+name='Raju'
+print("*".join(name)
+output: R*a*j*u
+
+sample2: print each line in new line
+name='Raju'
+print("/n".join(name)
+output: 
+R
+a
+j
+u
+
+
                                                   
 
 
