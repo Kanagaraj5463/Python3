@@ -198,6 +198,29 @@ we are finding index value of "a" after first "a" and it's sitting in inxed valu
 print(x.index('a',3))
 output: 6
 
+          find operation
+          
+advanced version of index and to make decisions this output value will help
+x='gokulanath is a bad boy and a gokulanath is a good boy'
+print(x.find(a, 23)
+a is in 5
+a is in 7
+we are finding after 2 times of a 
+output: 14
+ 3rd a is in 14th index after 2 skips of a 
+ 
+sample2
+
+java_version='Java version is 1.8'
+print(java_version.find(java))
+output: 0
+found match in the given data stored in variable called java_version and it's having the index value of 0
+
+java_version='Java version is 1.8'
+print(java_version.find(error))
+output: -1
+means not found any match in the given data stored in variable called java_version
+
 
 
 
