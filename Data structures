@@ -90,6 +90,21 @@ output: [1,2,3,4,5]
 
                                                                         Tuples 
                                                                         
-xs                                                                        
+define a tuple data
+data=()
+tuples are immutable. you can chnage the value after it's declared
+
+conver tuple into boolean
+data=()
+print(bool(data))
+output: False
+
+we can insert list DS to tuple DS
+    data=(1,2,3,[78,89,94], 4, 5)
+indexes.= 0 1 2     3       4  5
+print(data[3])
+output: [78,89,94]
+
+
                                                                    
 
