@@ -60,11 +60,62 @@ role="hero"
 plus=name+" "+role
 print(plus)
 output: ragu hero
-  
-  
+   
+                                               
+                                               case conversion in strings
+                                               
+ #UPPER conversion of given string "raJU"
+ name='raJU'
+ nameone=name.upper()
+ print(f'given string {name} is converted into upper case and the final value is {nameone}')
+ output: given string raJU is converted into upper case and the final value is RAJU
+ 
+ #SWAPcaSE of given string "raJU"
+ upper to lower case and lower to upper case conversion of #swapcase string operation
+ name='raJU'
+ nameone=name.swapcase()
+ print(f'given string {name} is converted into upper case and the final value is {nameone}')
+ output: given string raJU is converted into upper case and the final value is RAju
+ 
+ #Title of given string "raJU"
+ name='raJU bhai'
+ nameone=name.title()
+ print(f'given string {name} is converted into upper case and the final value is {nameone}')
+ output: given string raJU is converted into upper case and the final value is Raju Bhai
+ 
+ TO CHECK AVAILABLE OPERATION IN GIVE STRING
+ print(dir(name))
+ will list avaibale string operations like upper.lower..etc..,
+ 
+ 
+                                                    Boolean operation
+               
+to check true or false from the output 
+name='raJU bhai'
+print(name.startswith(R))
+ output: False #input starts with lower r
+
+various boolean string operations 
+startswith
+endswith
+isspace
+isupper
+islower
+istitle
+isalpha
+isnumeric
+
+                                                  
+
+
+ 
+ 
                     
 
  
+
+
+
 
 
 
