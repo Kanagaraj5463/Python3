@@ -46,6 +46,50 @@ list operations
 .index
 .count
 .clear #empty all the data stored in a variable "data"
+datacopied=data.copy() #to create new memory location
+data=datacopied #copying with the same memory location like soft link in unix
+print(id(data))
+.append 
 
+sample for append or to addone more data entry value to existing variable called "data"
+data=[1,2,3,4,5]
+data.append(49)
+now data will be like
+data=[1,2,3,4,5,[49]]
 
+.extend
+data=[1,2,3,4,5]
+data.extend(49)
+now data will be like
+data=[1,2,3,4,5,49]
+
+.insert
+insert will add the data base on the index value 
+data=[1,2,3]
+data.insert(1, 56) #inserting the data 56 with the index 1 
+data=[1,56,2,3]
+
+.pop 
+by default pop will remove the old data
+and as per index number pop will remove the data
+also it will show what data it removes with print function
+
+.reverse
+will reverse the order of data
+data=[1,2,3,4,5]
+data.reverse()
+print(data)
+output: [5,4,3,2,1]
+
+.sort
+will align in ascending the order of data
+data=[5,4,3,2,1]
+data.sort()
+print(data)
+output: [1,2,3,4,5]
+
+                                                                        Tuples 
+                                                                        
+xs                                                                        
+                                                                   
 
