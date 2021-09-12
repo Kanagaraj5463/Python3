@@ -1,1 +1,16 @@
+String is a squence of unicode character 
+why unicode ? to conver data into binaries 
+
+sample1
+name="Raju"
+#name is variable & "Raju" is string 
+
+sample2
+name="""Raju is a hero
+He is a master
+he is great
+"""
+print(f'{name})
+in the sample2 we are usign triple quotes to preserve same format used 
+
 
