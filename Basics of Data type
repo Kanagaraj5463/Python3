@@ -1,11 +1,12 @@
-Data types in Python
+                                             Data types in Python
+                                             
 
 Number data type = int, float, complex
 String Data type like "kanagaraj"
 Boolean data type like "True" or "false"
 
-Input and output functions
-
+                                            Input and output functions
+                                            
 
 Variable=eval(input("Enter the data sir:"))
 print(f'The data entered is {Variable}')
@@ -13,4 +14,23 @@ print(f'The data entered is {Variable}')
   #eval is the avaluaton function and it will automatically find the data type 
 to check data type of input varible use "print(type(x))"
 to check memory location of variable use "print(id(x))"
+
+
+                                               comments
+                                               
+                                                
+case1
+use # pound to ignore the code or the line 
+
+case2
+use triple quotes to comment lines in code
+'''
+the data present in this area won't be considered and not executed 
+print
+name ="gok"
+'''
+
+                                             Indentation 
+
+
 
