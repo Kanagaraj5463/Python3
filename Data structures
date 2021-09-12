@@ -20,10 +20,25 @@ print(data,type(data))
 print(data[4])
 output: raju
 
-
-again filtering the data. filter over filter 
 sample 1
+again filtering the data. filter over filter 
 data=[1,2,3,'gokulam']
 print(data[4][2])
 output: k
+
+sample 2
+changing the index value
+data=[5,6,7,8,9,0]
+print(data[2])
+output: 7
+then chaging the index value for 2 
+data[2]='Kanaga'
+print(data[2])
+output: Kanaga
+
+
+i.e., Lists are mutable as we can able to change the value after sometime 
+
+
+
 
