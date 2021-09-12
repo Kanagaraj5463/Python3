@@ -39,6 +39,13 @@ output: Kanaga
 
 i.e., Lists are mutable as we can able to change the value after sometime 
 
+to know available operations in lists
+dir(data)
+
+list operations
+.index
+.count
+.clear #empty all the data stored in a variable "data"
 
 
 
