@@ -113,6 +113,15 @@ x=(3,2)
 dir(x)
 outputs will have list of available operations
 
+x=1, tuple
+x=1,2,3
+x=1 not tuple and it's int data type and not DS
+
+                                                           Dictonaries
+                                                           
+                                                           
+
+
 
 
                                                                    
