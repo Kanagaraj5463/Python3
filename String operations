@@ -125,6 +125,82 @@ a
 j
 u
 
+center
+name='RAJU'
+title='hero'
+print(f'{name.center(30)} /n{title.center(50)}')
+output:         RAJU
+                        hero
+                        
+                        
+zfill or zerofill or padding operation
+name='raju'
+print(f'{name.zfill(10)}')
+output:000000raju
+
+if the input is "powerrang" instead of "raju" the output is 
+0powerrang
+
+
+
+                                                        strip & split operations 
+                                                        
+                        strip
+
+this strip operation will remove the spaces in the string input and it will remove start and ending characters
+
+sample1
+
+x='gokulam'
+print(x.strip('am'))
+output: gokul
+
+other strip operations
+lstrip
+rstrip
+
+                       split
+                       
+split operation will split the given words into list data structure or it will split based on space between characters
+input: raju is a hero
+output: ['raju', 'is', 'a', 'hero']
+
+sample1
+x='gokulam kurivi'
+print(x.split(x))
+output: ['gokulam', 'kurivi']
+
+sample2
+x='gokulam and co and raju co and company'
+print(x.split(x))
+output: ['gokulam and', 'and raju', 'and company']
+
+                                                                                                                                                                                                                                                                                                                         
+                                                   count, index & find
+                                                        
+                                                        
+               count
+ how many times word or character is used in the variable o input 
+x='gokulrajan'
+print(x.count(a))
+output: 2 
+
+              index
+x='gokulrajan'             
+print(x.index(a))
+output: 6
+
+sample2
+x='ganesha gokula'
+index value of e is 3
+index value of g is 0
+we are finding index value of "a" after first "a" and it's sitting in inxed value of 6
+print(x.index('a',3))
+output: 6
+
+
+
+
 
                                                   
 
