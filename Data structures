@@ -104,6 +104,15 @@ we can insert list DS to tuple DS
 indexes.= 0 1 2     3       4  5
 print(data[3])
 output: [78,89,94]
+now filtering over filter 
+print(data[3][2])
+output: 94
+
+check available operations in tuples
+x=(3,2)
+dir(x)
+outputs will have list of available operations
+
 
 
                                                                    
