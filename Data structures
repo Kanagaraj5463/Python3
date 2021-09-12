@@ -119,8 +119,40 @@ x=1 not tuple and it's int data type and not DS
 
                                                            Dictonaries
                                                            
-                                                           
+ key value pair representation and it's mutable
+ 
+data={'leader':10.1.2.3, 'fruit':'apple', 1:'one'}
+print(data)
+{'leader':10.1.2.3, 'fruit':'apple', 1:'one'}
 
+print(data['leader'])
+output: 10.1.2.3
+
+accessing ivalid data
+print(data.get['three'])
+output: None
+
+adding the key value in "data"
+data[three]=3
+if the key is already present then then only the value to that key wil be modified and it won't create new key 
+
+.update 
+data.update(newdata)
+.pop #to remove the data
+.setdefault
+
+                                                              Set
+                                                              
+ set will remove the duplicates and unordered data
+ x={1,2,3,4,4}
+ print(x)
+ output: {1,2,3,4}
+ 
+converting list into set to avoid duplicates
+x=[1,2,3,4,4]
+set(x)
+print(x)
+output: {1,2,3,4}
 
 
 
