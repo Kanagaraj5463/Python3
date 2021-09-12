@@ -1,5 +1,9 @@
-String is a squence of unicode character 
-why unicode ? to conver data into binaries 
+                                            String is a squence of unicode character 
+                                            why unicode ? to convert data into binaries 
+                                            encoding is converting data into binaries 
+                                            decoding is converting binaries into data
+                                            #data is readable format of original input 
+                                            
 
 sample1
 name="Raju"
@@ -12,5 +16,63 @@ he is great
 """
 print(f'{name})
 in the sample2 we are usign triple quotes to preserve same format used 
+
+
+space is also the charater in string in python
+sample
+name=" "
+print(f'the value is {bool(name)}')
+output: True #because some value is present space" "
+
+
+                                                                   index value in string
+                                                                   
+                                                                   
+python will assign some number/indexes for the characters in string/input 
+            name="raju"
+index values      0123
+index value of r is 0
+base on the index you can acess particular value of string
+
+to print last character in string
+  name="Raju"
+          -1
+-1 will be last value 
+index
+print(f'output is {name[2]}')
+output will be: j
+
+
+                       strings are immutable as we can't change the ssigned vallues and only way is to delete the entire string 
+
+                                                 length function in string
+
+it's used to find the length of the characters used in given string
+name='Prak'
+print(f'output is {len(name)}')
+output: 4
+   
+                                             add multiple strings
+
+to add multiple strings using concatenate the strings 
+name="ragu"
+role="hero"
+plus=name+" "+role
+print(plus)
+output: ragu hero
+  
+  
+                    
+
+ 
+
+
+
+
+
+
+
+
+
 
 
